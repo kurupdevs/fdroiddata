@@ -1,0 +1,41 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-only
+AuthorName: kurupdevs
+SourceCode: https://github.com/kurupdevs/KuruBeats
+IssueTracker: https://github.com/kurupdevs/KuruBeats/issues
+Changelog: https://github.com/kurupdevs/KuruBeats/releases
+
+AutoName: KuruBeats
+Summary: Modern music player for local files and YouTube Music
+Description: |-
+  A cute and modern music player for YouTube Music and local music.
+
+  Listen to YouTube Music and music stored on your device, with live synced lyrics, music recognition, dynamic themes, listening statistics, extensive customization, widgets, and more.
+
+  Features:
+  * Ad-free playback with background listening
+  * Play local music files stored on your device
+  * Access your YouTube playlists, liked songs, and subscriptions
+  * Fast startup and lightweight performance
+  * View live synced lyrics while listening
+  * Track your listening statistics
+  * Material 3 interface with dynamic album-art colors
+
+RepoType: git
+Repo: https://github.com/kurupdevs/KuruBeats.git
+
+Builds:
+  - versionName: 15.1.6
+    versionCode: 154
+    commit: v15.1.6
+    subdir: app
+    gradle:
+      - foss
+      - mobile
+      - universal
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
+CurrentVersion: 15.1.6
+CurrentVersionCode: 154
